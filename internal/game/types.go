@@ -46,7 +46,6 @@ func NewBoard() *Board {
 
 // TODO: printing the board doesn't depend on Size, this method only prints for Sixe = 3
 func (b *Board) PrintBoard() {
-	fmt.Printf("%+v\n", b)
 	fmt.Printf("%c|%c|%c\r\n", b.Curr[0][0], b.Curr[0][1], b.Curr[0][2])
 	fmt.Println("-+-+-\r")
 	fmt.Printf("%c|%c|%c\r\n", b.Curr[1][0], b.Curr[1][1], b.Curr[1][2])

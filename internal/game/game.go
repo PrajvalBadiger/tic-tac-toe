@@ -32,6 +32,7 @@ func (b *Board) Play() error {
 		playing = b.P1
 	}
 	fmt.Printf("Player %c plays\n", playing.Value)
+	fmt.Println("Enter the coordinates x y (range 0 -2):")
 
 	// get input
 	pos := Position{}

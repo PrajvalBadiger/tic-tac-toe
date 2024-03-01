@@ -1,8 +1,14 @@
 package main
 
-import "github.com/Prajvalbadiger/tic-tac-toe/internal/game"
+import (
+	"fmt"
+
+	"github.com/Prajvalbadiger/tic-tac-toe/internal/game"
+)
 
 func main() {
+
+	fmt.Println("Welcome to Tic Tac Toe")
 	board := game.NewBoard()
 	board.GameLoop()
 }
