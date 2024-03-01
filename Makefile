@@ -12,3 +12,6 @@ watch:
 
 test:
 	@go test -v ./...
+
+clean:
+	@rm -f bin/${TARGET}

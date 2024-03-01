@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "github.com/Prajvalbadiger/tic-tac-toe/internal/game"
 
 func main() {
-	fmt.Println("Hello World!")
+	board := game.NewBoard()
+	board.GameLoop()
 }
